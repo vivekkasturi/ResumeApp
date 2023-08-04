@@ -1,13 +1,70 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+*{
+    font-family: cursive;
+  margin: 15px;
+  border-radius: 50px;
+  background-color: rgb(225, 228, 228);
+}
+.resume {
+  width: 800px;
+  height: auto;
+  display: flex;
+  margin: 50px auto;
+  background-color: rgb(250, 242, 242);
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+;
+
+.resume_left {
+  width: 250px;
+  background: rgb(15, 171, 171);
+  height: auto;
+  border-radius: 50px;
+
 }
+
+.resume_left_personaldeatils {
+  line-height: 24px;
+}
+
+
+.skills span {
+  font-weight: bold;
+  text-align: left;
+
+}
+
+.skills_bar span {
+  height: 20px;
+  background-color: antiquewhite;
+  border-radius: 5px;
+  display: block;
+}
+
+.skills_bar li {
+  list-style: none;
+}
+
+.resume_right {
+  width: 520px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.resume_right .About_me {
+  font-size: 16px;
+  font-weight: 500;
+  margin-bottom: 15px;
+}
+
+.resume_right .Work_Experience {
+  text-align: left;
+
+}
+
+.resume_right .Education_details {
+  text-align: left;
+
+}
+
+
+
