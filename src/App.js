@@ -6,6 +6,7 @@ import EducationalDeatils from './Components/EducationalDeatils';
 import WorkExperience from './Components/WorkExperience';
 import FinalResume from './FinalResume';
 import MyProvider2 from './MyProvider2';
+import { Skills } from './Components/Skills';
 
 
 function App() {
@@ -18,8 +19,10 @@ function App() {
         <MyComponent />
      
         <WorkExperience />
+        <Skills />
         <FinalResume />
    <PersonalDetails />
+   <Skills />
       </MyProvider>
     
      

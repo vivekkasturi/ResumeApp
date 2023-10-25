@@ -11,6 +11,9 @@ import Pagination from './Components/NewComponent/Pagination';
 
 import StartPage  from './StartPage';
 
+import WE from './Components/WE';
+import { Skills } from './Components/Skills';
+
 function Main() {
   return (
     <div>  <Router>
@@ -22,6 +25,8 @@ function Main() {
         <Route path="/finalresume" element={<FinalResume />} />
         <Route path="/PersonalDetails2" element={<PersonalDetails2 />} />
         <Route path="/pagination" element={<Pagination />} />
+        <Route path="/we" element={<WE />} />
+        <Route path="/skills" element={<Skills />} />
       </Routes>
     </Router>
     </div>

@@ -59,7 +59,7 @@ export default function PersonalDetails() {
         <input type="text" name="Mail" placeholder="Enter mail address" value={formdataobj.Mail} onChange={handlechange}/>
         <br  />
           <Link to="/"><button type="submit"  >
-            back
+           Back
           </button></Link>
           <Link to="/educationdetails"><button type="submit"  >
             Next
